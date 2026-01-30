@@ -17,3 +17,4 @@ A successful compilation produces a .class file: Plankton.class, that we execute
 
 ''java Plankton''
 
+Run the ls command in the terminal to see the uncompiled .java file.
