@@ -158,3 +158,36 @@ So:
 The constructor initializes the object
 
 The variable stores the reference to that object
+```
+
+Classes: Instance Fields
+-
+
+```java
+public class Car { 
+
+ /* 
+ declare fields inside the class 
+ by specifying the type and name 
+ */ 
+
+//instance variables
+ public String color; 
+ public int year; 
+ public String modelName; 
+ public String make; 
+
+ public Car() { 
+   /*  
+   instance fields available in 
+   scope of the constructor method 
+   */ 
+ } 
+} 
+```
+
+Instance variables are specific to each instance of the class which means that each object created from the class will have its own copy of these variables. These fields can be set in the following three ways:
+
+1. If they are public, they can be set like this instanceName.fieldName = someValue;
+2. They can be set by class methods
+3.They can be set by the constructor method
