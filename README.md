@@ -18,3 +18,66 @@ A successful compilation produces a .class file: Plankton.class, that we execute
 ''java Plankton''
 
 Run the ls command in the terminal to see the uncompiled .java file.
+
+Java Data Types
+-
+Data types are divided into two categories, primitive data types and reference data types. Java is a statically-typed language.
+Primitive Data Types
+
+<img width="791" height="378" alt="Screen Shot 2026-02-06 at 10 44 25 PM" src="https://github.com/user-attachments/assets/70d6052e-8702-45e0-a3c7-dee9586cd8d2" />
+
+
+Reference Data Types
+Reference data types, also known as object data types, are data types which are defined by the user and are references to a specific object.
+
+Reference data types include:
+Annotations - allow metadata to be associated with elements of a program
+Arrays - store elements of the same type
+Classes - provide a template for object creation
+Enumeration - stores a fixed set of constants
+Interfaces - store a template for a class
+
+Static Typing
+-
+In Java, the type of variable is checked at compile time. This is known as static typing. It has the advantage of catching the errors at compile time rather than at execution time.
+
+classes in java
+-
+<img width="5059" height="3705" alt="image" src="https://github.com/user-attachments/assets/456dfaa0-b7ad-4c4b-b522-314769f5ccce" />
+
+In Java, classes are blueprints or templates for objects in Java. Classes are classified as a reference data type.
+
+
+<img width="734" height="229" alt="Screen Shot 2026-02-06 at 10 52 23 PM" src="https://github.com/user-attachments/assets/58e74903-bbbd-4e94-b4e0-fd155d010727" />
+
+They use an accessModifier (public, private, and protected) to determine its visibility to other files.
+Inside the class “blueprint” are members.
+
+Class Instances
+-
+instances are objects that are based on existing classes.
+
+Every instance has access to its own set of variables known as instance fields. These are variables declared within the scope of the instance and supplied with new values within the class constructor method during initialization.
+
+
+```java
+// Person.java
+public class Person {
+  int age;
+  String name;
+
+  // Constructor method
+  public Person(int age, String name) {
+    this.age = age;
+    this.name = name;
+  }
+
+  public static void main(String[] args) {
+    Person Bob = new Person(31, "Bob");
+    Person Alice = new Person(27, "Alice");
+
+    System.out.println(Bob.name + " is " + Bob.age + ".");
+    System.out.println(Alice.name + " is " + Alice.age + ".");
+  }
+}
+```
