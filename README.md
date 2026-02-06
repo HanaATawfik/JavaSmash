@@ -81,3 +81,80 @@ public class Person {
   }
 }
 ```
+
+
+Classes: Constructors
+-
+
+the constructor is a special type of method defined within the class, used to initialize fields when an instance of the class is created.The name of the constructor method must be the same as the class itself
+
+```java
+public class Car { 
+
+ // Constructor
+ public Car() { 
+
+   // instructions for creating a Car instance 
+ }   
+} 
+```
+
+
+
+```java
+Car ferrari = new Car(); 
+```
+
+After the assignment operator, (=), we call the constructor method, Car(), using the keyword new to indicate that we’re creating a new instance of the Car class.
+## What Happens When You Write:
+
+```java
+Car ferrari = new Car();
+Java performs this in two steps.
+
+✅ Step 1 — The Constructor Runs (Object Initialization)
+java
+Copy code
+new Car();
+This does the following:
+
+Creates a Car object in memory (heap)
+
+Executes the constructor
+
+Initializes the object’s fields (speed, color, etc.)
+
+Example:
+
+java
+Copy code
+public Car() {
+    speed = 0;
+    color = "red";
+}
+At this point, a real object exists in memory:
+
+ini
+Copy code
+speed = 0
+color = red
+This is the actual object.
+
+✅ Step 2 — The Variable Stores the Object’s Address (Reference)
+java
+Copy code
+Car ferrari = ...
+The variable ferrari does not store the object itself.
+
+Instead, it stores a reference (memory address) pointing to the object.
+
+Conceptually:
+
+nginx
+Copy code
+ferrari → 0x76ed5528
+So:
+
+The constructor initializes the object
+
+The variable stores the reference to that object
