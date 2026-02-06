@@ -42,8 +42,11 @@ public class Main {
      //String salute=context.getBean(String.class);
     // System.out.println(salute); //print hello world (listing 2.12)
      Banana bananaz = context.getBean("banana",Banana.class); //get bean from context (listing 2.9)
-     Person humanz = context.getBean(Person.class); //getbean from context (listing 2.9)
-        System.out.println(humanz.getName()); //print banana name (listing 2.10)
+        Banana bananaz1 = context.getBean("banana",Banana.class); //get bean from context (listing 2.9)
+boolean b1= bananaz==bananaz1; //check if both are same instance (listing 2.10)
+        System.out.println(b1); //print true (listing 2.10)
+     //Person humanz = context.getBean(Person.class); //getbean from context (listing 2.9)
         System.out.println(bananaz.getName()); //print banana name (listing 2.10)
+        System.out.println(bananaz1.getName()); //print banana name (listing 2.10)
     }
 }

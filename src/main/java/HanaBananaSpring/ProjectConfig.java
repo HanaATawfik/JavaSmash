@@ -14,7 +14,7 @@ public class ProjectConfig {  //spring config class 2.7
     Banana banana(){ //factory method  from Banana class in main 2.8
        var bananaz=new Banana(); //new object of Banana class
        bananaz.setName("PURPLE BANANA");
-       return bananaz;
+       return  bananaz;
   }
 
    @Bean //bean name is method name aka banana
