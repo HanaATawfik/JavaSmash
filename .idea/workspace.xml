@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ea60211-e85e-46c1-af90-f7e43406c7dc" name="Changes" comment="Add `Dog.java` class and update IntelliJ project configurations">
-      <change afterPath="$PROJECT_DIR$/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lemonadestore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0ea60211-e85e-46c1-af90-f7e43406c7dc" name="Changes" comment="Add `Order.java` class with constructor, methods, and main method example" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1769814227111</updated>
       <workItem from="1769814229025" duration="2521000" />
-      <workItem from="1771544893462" duration="2378000" />
+      <workItem from="1771544893462" duration="3037000" />
     </task>
     <task id="LOCAL-00001" summary="Remove XML declaration from misc.xml configuration">
       <option name="closed" value="true" />
@@ -125,7 +121,39 @@
       <option name="project" value="LOCAL" />
       <updated>1771583545553</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add `Cat.java` class with constructor and main method example">
+      <option name="closed" value="true" />
+      <created>1771589513794</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1771589513794</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add `Cat.java` class with constructor and main method example">
+      <option name="closed" value="true" />
+      <created>1771589519585</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1771589519585</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add `Cat.java` class with constructor and main method example">
+      <option name="closed" value="true" />
+      <created>1771589535254</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1771589535254</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add `Order.java` class with constructor, methods, and main method example">
+      <option name="closed" value="true" />
+      <created>1771613655563</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1771613655563</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,7 +163,9 @@
     <MESSAGE value="Remove XML declaration from misc.xml configuration" />
     <MESSAGE value="Rename `HideAndSeek` file to `HideAndSeek.java`." />
     <MESSAGE value="Add `Dog.java` class and update IntelliJ project configurations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add `Dog.java` class and update IntelliJ project configurations" />
+    <MESSAGE value="Add `Cat.java` class with constructor and main method example" />
+    <MESSAGE value="Add `Order.java` class with constructor, methods, and main method example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add `Order.java` class with constructor, methods, and main method example" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
