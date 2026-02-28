@@ -252,3 +252,28 @@ Classes: Assigning Values to Instance Fields
 An argument refers to the actual values passed during the method call while a parameter refers to the 
 variables declared in the method signature.
 When we pass an argument, a copy of the argument value is passed to the parameter rather than the actual variables. This process of calling a method with an argument value is called a call-by-value.
+
+
+Importing Arrays
+-
+
+If we want to have a more descriptive printout of the array itself, we need a toString() method that is provided by the  Arrays package in Java.
+```java
+import java.util.Arrays;
+```
+When we import a package in Java, we are making all of the methods of that package available in our code.
+The Arrays package has many useful methods, including Arrays.toString(). When we pass an array into Arrays.toString(), we can see the contents of the array printed out:
+```java
+import java.util.Arrays;
+
+public class Lottery(){
+  
+  public static void main(String[] args){
+    int[] lotteryNumbers = {4, 8, 15, 16, 23, 42};
+    String betterPrintout = Arrays.toString(lotteryNumbers);
+    System.out.println(betterPrintout);
+  }
+
+}
+```
+without using the library, we will see a memory address that doesnt  help us understand what was contained in the array.
