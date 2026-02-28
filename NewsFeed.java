@@ -7,6 +7,7 @@ public class Newsfeed {
 
     public String[] getTopics(){
         String[] topics = {"Opinion", "Tech", "Science", "Health"};
+        int size=topics.length;
         return topics;
     }
 }

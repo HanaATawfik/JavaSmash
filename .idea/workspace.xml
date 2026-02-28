@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ea60211-e85e-46c1-af90-f7e43406c7dc" name="Changes" comment="Add `NewsFeed.java` class with method to retrieve topics">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsFeed.java" beforeDir="false" afterPath="$PROJECT_DIR$/NewsFeed.java" afterDir="false" />
-    </list>
+    <list default="true" id="0ea60211-e85e-46c1-af90-f7e43406c7dc" name="Changes" comment="Update `NewsFeed.java` class to include `Main` method with example usage of `getTopics` method" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +23,7 @@
     </selectedModels>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -92,7 +90,7 @@
       <workItem from="1769814229025" duration="2521000" />
       <workItem from="1771544893462" duration="3899000" />
       <workItem from="1771673483590" duration="2782000" />
-      <workItem from="1772285175486" duration="1288000" />
+      <workItem from="1772285175486" duration="1770000" />
     </task>
     <task id="LOCAL-00001" summary="Remove XML declaration from misc.xml configuration">
       <option name="closed" value="true" />
@@ -182,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772287751747</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Update `NewsFeed.java` class to include `Main` method with example usage of `getTopics` method">
+      <option name="closed" value="true" />
+      <created>1772309346009</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1772309346009</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,7 +203,8 @@
     <MESSAGE value="Add `Operators.java` class with examples of logical and comparison operations" />
     <MESSAGE value="Update workspace.xml to reflect changes for `Operators.java` class and adjust task summaries" />
     <MESSAGE value="Add `NewsFeed.java` class with method to retrieve topics" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add `NewsFeed.java` class with method to retrieve topics" />
+    <MESSAGE value="Update `NewsFeed.java` class to include `Main` method with example usage of `getTopics` method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update `NewsFeed.java` class to include `Main` method with example usage of `getTopics` method" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
