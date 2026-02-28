@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ea60211-e85e-46c1-af90-f7e43406c7dc" name="Changes" comment="Update `NewsFeed.java` class to include `Main` method with example usage of `getTopics` method" />
+    <list default="true" id="0ea60211-e85e-46c1-af90-f7e43406c7dc" name="Changes" comment="Update `.idea/workspace.xml` and `NewsFeed.java` to include task summaries, adjust settings, and add variable for topic size" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +90,7 @@
       <workItem from="1769814229025" duration="2521000" />
       <workItem from="1771544893462" duration="3899000" />
       <workItem from="1771673483590" duration="2782000" />
-      <workItem from="1772285175486" duration="1770000" />
+      <workItem from="1772285175486" duration="2277000" />
     </task>
     <task id="LOCAL-00001" summary="Remove XML declaration from misc.xml configuration">
       <option name="closed" value="true" />
@@ -188,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772309346009</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Update `.idea/workspace.xml` and `NewsFeed.java` to include task summaries, adjust settings, and add variable for topic size">
+      <option name="closed" value="true" />
+      <created>1772310847310</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1772310847310</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +212,8 @@
     <MESSAGE value="Update workspace.xml to reflect changes for `Operators.java` class and adjust task summaries" />
     <MESSAGE value="Add `NewsFeed.java` class with method to retrieve topics" />
     <MESSAGE value="Update `NewsFeed.java` class to include `Main` method with example usage of `getTopics` method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update `NewsFeed.java` class to include `Main` method with example usage of `getTopics` method" />
+    <MESSAGE value="Update `.idea/workspace.xml` and `NewsFeed.java` to include task summaries, adjust settings, and add variable for topic size" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update `.idea/workspace.xml` and `NewsFeed.java` to include task summaries, adjust settings, and add variable for topic size" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
