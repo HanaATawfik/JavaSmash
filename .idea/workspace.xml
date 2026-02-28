@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ea60211-e85e-46c1-af90-f7e43406c7dc" name="Changes" comment="Add `Order.java` class with constructor, methods, and main method example" />
+    <list default="true" id="0ea60211-e85e-46c1-af90-f7e43406c7dc" name="Changes" comment="Add `Operators.java` class with examples of logical and comparison operations">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,9 +19,9 @@
   </component>
   <component name="CopilotUserSelectedModel">
     <selectedModels>
+      <entry key="edit-panel" value="GPT-5 mini" />
       <entry key="chat-panel" value="GPT-5 mini" />
       <entry key="agent-panel" value="GPT-5 mini" />
-      <entry key="edit-panel" value="GPT-5 mini" />
     </selectedModels>
   </component>
   <component name="Git.Settings">
@@ -87,7 +89,8 @@
       <option name="presentableId" value="Default" />
       <updated>1769814227111</updated>
       <workItem from="1769814229025" duration="2521000" />
-      <workItem from="1771544893462" duration="3037000" />
+      <workItem from="1771544893462" duration="3899000" />
+      <workItem from="1771673483590" duration="2782000" />
     </task>
     <task id="LOCAL-00001" summary="Remove XML declaration from misc.xml configuration">
       <option name="closed" value="true" />
@@ -153,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771613655563</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add `Operators.java` class with examples of logical and comparison operations">
+      <option name="closed" value="true" />
+      <created>1771614372143</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1771614372143</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,7 +176,8 @@
     <MESSAGE value="Add `Dog.java` class and update IntelliJ project configurations" />
     <MESSAGE value="Add `Cat.java` class with constructor and main method example" />
     <MESSAGE value="Add `Order.java` class with constructor, methods, and main method example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add `Order.java` class with constructor, methods, and main method example" />
+    <MESSAGE value="Add `Operators.java` class with examples of logical and comparison operations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add `Operators.java` class with examples of logical and comparison operations" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
