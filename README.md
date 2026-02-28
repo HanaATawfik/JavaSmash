@@ -277,3 +277,20 @@ public class Lottery(){
 }
 ```
 without using the library, we will see a memory address that doesnt  help us understand what was contained in the array.
+
+Creating an Empty Array
+-
+
+```java
+String[] my_names = new String[5];
+int[] my_ages = new int[5];
+```
+When we use new to create an empty array, each element of the array is initialized with a specific value depending on what type the element is:
+Data Type	Initialized Value
+int	0
+double	0.0
+boolean	false
+Reference	null
+
+in the code above: Because a String is a reference to an Object, my_names will contain five nulls. my_ages will contain five 0s to begin with.
+
