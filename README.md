@@ -378,5 +378,24 @@ System.out.println(shoppingCart.size());
 shoppingCart.add("Magnifying Glass");
 System.out.println(shoppingCart.size());
 // 3 is printed
+```
 
+Accessing an Index
+-
+With arrays we can use bracket notation to access a value at a particular index:
+```java
+double[] ratings = {3.2, 2.5, 1.7};
+
+System.out.println(ratings[1]);
+//2.5
+```
+For ArrayLists, bracket notation won’t work. Instead, we use the method get() to access an index:
+```java
+ArrayList<String> shoppingCart = new ArrayList<String>();
+
+shoppingCart.add("Trench Coat");
+shoppingCart.add("Tweed Houndstooth Hat");
+shoppingCart.add("Magnifying Glass");
+
+System.out.println(shoppingCart.get(2));
 ```
