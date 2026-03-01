@@ -296,6 +296,10 @@ in the code above: Because a String is a reference to an Object, my_names will c
 
 ArrayLists
 -
+to import the library
+```java
+import java.util.ArrayList;
+```
 To create mutable and dynamic lists, we can use Java’s 
 ArrayList
 Preview: Docs A dynamic array class in Java that automatically resizes and offers type safety along with convenient methods for data access and manipulation.
