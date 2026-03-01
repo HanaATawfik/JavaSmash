@@ -363,3 +363,20 @@ assortment.add(ferrari); // reference to Car
 // assortment holds ["Hello", 12, ferrari]
 ```
 In this case, the items stored in this ArrayList will be considered Objects. As a result, they won’t have access to some of their methods without doing some fancy casting.
+
+ArrayList Size
+-
+```java
+ArrayList<String> shoppingCart = new ArrayList<String>();
+
+shoppingCart.add("Trench Coat");
+System.out.println(shoppingCart.size());
+// 1 is printed
+shoppingCart.add("Tweed Houndstooth Hat");
+System.out.println(shoppingCart.size());
+// 2 is printed
+shoppingCart.add("Magnifying Glass");
+System.out.println(shoppingCart.size());
+// 3 is printed
+
+```
