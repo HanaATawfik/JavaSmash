@@ -294,3 +294,38 @@ Reference	null
 
 in the code above: Because a String is a reference to an Object, my_names will contain five nulls. my_ages will contain five 0s to begin with.
 
+ArrayLists
+-
+To create mutable and dynamic lists, we can use Java’s 
+ArrayList
+Preview: Docs A dynamic array class in Java that automatically resizes and offers type safety along with convenient methods for data access and manipulation.
+ class. ArrayList allows us to:
+
+-Store object references* as elements
+*An object reference is a variable that points to an object in memory.
+```java
+class Dog {
+    String name;
+}
+Dog d = new Dog();
+//d is the ref variable
+```
+
+Creating ArrayLists
+-
+```java
+// This code won't compile:
+ArrayList<int> ages;
+
+// This code will compile:
+ArrayList<Integer> ages;
+```
+```java
+// Declaring:
+ArrayList<Integer> ages;
+// Initializing:
+ages = new ArrayList<Integer>();
+
+// Declaring and initializing in one line:
+ArrayList<String> babyNames = new ArrayList<String>();
+```
