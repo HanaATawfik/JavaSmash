@@ -333,3 +333,33 @@ ages = new ArrayList<Integer>();
 // Declaring and initializing in one line:
 ArrayList<String> babyNames = new ArrayList<String>();
 ```
+Adding an Item
+-
+```java
+ArrayList<Car> carShow = new ArrayList<Car>();
+
+carShow.add(ferrari);
+// carShow now holds [ferrari]
+carShow.add(thunderbird);
+// carShow now holds [ferrari, thunderbird]
+carShow.add(volkswagen);
+// carShow now holds [ferrari, thunderbird, volkswagen]
+```
+```java
+// Insert object corvette at index 1
+carShow.add(1, corvette);
+// carShow now holds [ferrari, corvette, thunderbird, volkswagen]
+
+// Insert object porsche at index 2
+carShow.add(2, porsche);
+// carShow now holds [ferrari, corvette, porsche, thunderbird, volkswagen]
+```
+In the following snippet, assortment is an ArrayList that can store different values because we do not specify its type during initialization.
+```java
+ArrayList assortment = new ArrayList<>();
+assortment.add("Hello"); // String
+assortment.add(12); // Integer
+assortment.add(ferrari); // reference to Car
+// assortment holds ["Hello", 12, ferrari]
+```
+In this case, the items stored in this ArrayList will be considered Objects. As a result, they won’t have access to some of their methods without doing some fancy casting.
