@@ -444,3 +444,11 @@ shoppingCart.remove("Trench Coat");
 // shoppingCart now holds ["Tweed Houndstooth Hat", "Magnifying Glass"]
 
 ```
+
+Getting an Item's Index
+-
+```java
+// detectives holds ["Holmes", "Poirot", "Marple", "Spade", "Fletcher", "Conan", "Ramotswe"];
+System.out.println(detectives.indexOf("Fletcher")); //4
+```
+
