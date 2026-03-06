@@ -399,3 +399,48 @@ shoppingCart.add("Magnifying Glass");
 
 System.out.println(shoppingCart.get(2));
 ```
+Changing a Value
+-
+When we were using arrays, we could rewrite entries by using bracket notation to reassign values:
+```java
+String[] shoppingCart = {"Trench Coat", "Tweed Houndstooth Hat", "Magnifying Glass"};
+
+shoppingCart[0] = "Tweed Cape";
+
+// shoppingCart now holds ["Tweed Cape", "Tweed Houndstooth Hat", "Magnifying Glass"]
+```
+in ArrayList, we use set
+```java
+ArrayList<String> shoppingCart = new ArrayList<String>();
+
+shoppingCart.add("Trench Coat");
+shoppingCart.add("Tweed Houndstooth Hat");
+shoppingCart.add("Magnifying Glass");
+
+shoppingCart.set(0, "Tweed Cape");
+
+// shoppingCart now holds ["Tweed Cape", "Tweed Houndstooth Hat", "Magnifying Glass"]
+```
+Removing an Item
+-
+```java
+ArrayList<String> shoppingCart = new ArrayList<String>();
+
+shoppingCart.add("Trench Coat");
+shoppingCart.add("Tweed Houndstooth Hat");
+shoppingCart.add("Magnifying Glass");
+
+shoppingCart.remove(1);
+// shoppingCart now holds ["Trench Coat", "Magnifying Glass"]
+```
+```java
+ArrayList<String> shoppingCart = new ArrayList<String>();
+
+shoppingCart.add("Trench Coat");
+shoppingCart.add("Tweed Houndstooth Hat");
+shoppingCart.add("Magnifying Glass");
+
+shoppingCart.remove("Trench Coat");
+// shoppingCart now holds ["Tweed Houndstooth Hat", "Magnifying Glass"]
+
+```
