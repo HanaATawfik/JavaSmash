@@ -452,3 +452,39 @@ Getting an Item's Index
 System.out.println(detectives.indexOf("Fletcher")); //4
 ```
 
+Removing Elements During Traversal
+-
+When an element is removed from an ArrayList, all the items that appear after the removed element will have their index value shift by negative one
+
+Removing An Element Using while
+-
+When using a while loop and removing elements from an ArrayList, we should not increment the while loop’s counter whenever we remove an element. We don’t need to increase the counter because all of the other elements have now shifted to the left. For example, if we removed the element at index 3, then the element that was at index 4 will be moved to index 3. If we increase our counter to 4, we’ll skip that element!
+```java
+int i = 0; // initialize counter
+
+while (i < lst.size()) {
+  // if value is odd, remove value
+  if (lst.get(i) % 2 != 0){
+    lst.remove(i);
+  } else {
+    // if value is even, increment counter
+    i++;
+  }
+}
+```
+Removing An Element Using for
+-
+must increase our loop control variable — the loop control variable will always change when we reach the end of the loop (and it will usually change by 1 because we often use something like i++.) 
+```java
+for (int i = 0; i < lst.size(); i++) {
+  if (lst.get(i) == "value to remove"){
+    // remove value from ArrayList
+    lst.remove(lst.get(i));
+    // Decrease loop control variable by 1
+    i--;    
+  }
+}
+```
+Note: Avoid manipulating the size of an ArrayList when using an enhanced for loop. Actions like adding or removing elements from an ArrayList when using a for each loop can cause a 
+ConcurrentModificationException
+
