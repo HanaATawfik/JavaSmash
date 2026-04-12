@@ -485,6 +485,52 @@ for (int i = 0; i < lst.size(); i++) {
   }
 }
 ```
-Note: Avoid manipulating the size of an ArrayList when using an enhanced for loop. Actions like adding or removing elements from an ArrayList when using a for each loop can cause a 
-ConcurrentModificationException
+Note: Avoid manipulating the size of an ArrayList when using an enhanced for loop. Actions like adding or removing elements from an ArrayList when using a for each loop can cause a ConcurrentModificationException
 
+String Methods
+-
+```java
+String str = "Hello World!";  
+
+System.out.println(str.length()); //12
+```
+```java
+String name = new String("Code");
+
+name = name.concat("cademy");
+
+System.out.println(name);
+//Strings are immutable objects which means that String 
+methods , like concat() do not actually change a String object.
+```
+```java
+String flavor1 = "Mango";
+String flavor2 = "Peach";
+
+System.out.println(flavor1.equals("Mango"));
+// prints true
+
+System.out.println(flavor2.equals("Mango"));
+// prints false
+
+System.out.println(flavor1.compareTo(flavor2)
+//-3 
+
+// equalsIgnoreCase() -> method that compares two strings without considering upper/lower cases.
+```
+When we use .compareTo(), we must pay attention to the return value:
+
+If the method returns 0, the two Strings are equal.
+If the value is less than 0, then the String object is lexicographically less than the String object argument.
+If the value is greater than 0, then the String object is lexicographically greater than the String object argument.
+
+```java
+String letters = "ABCDEFGHIJKLMN";
+
+System.out.println(letters.indexOf("C"));
+//2
+System.out.println(letters.indexOf("EFG"));
+//4
+System.out.println(letters.indexOf("z"));
+//-1
+```
