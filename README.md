@@ -539,3 +539,21 @@ String str = "qwer";
 System.out.println(str.charAt(2)); //e
 System.out.println(str.charAt(4)); //java.lang.StringIndexOutOfBoundsException: String index out of range: 4
 ```
+```java
+String line = "The Heav'ns and all the Constellations rung";
+
+System.out.println(line.substring(24)); //Constellations rung
+
+String line = "The Heav'ns and all the Constellations rung";
+
+System.out.println(line.substring(27, 33)); //(0 indexed)starts from 27 and ends at 32  //stella
+```
+```java
+String input = "Cricket!";
+
+String upper = input.toUpperCase();
+// stores "CRICKET!"
+
+String lower = input.toLowerCase();
+// stores "cricket!"
+```
