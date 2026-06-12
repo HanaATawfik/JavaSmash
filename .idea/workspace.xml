@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ea60211-e85e-46c1-af90-f7e43406c7dc" name="Changes" comment="Add `TweetCounter.java` class with `main` method example to count characters in a tweet">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_03_2026,_12_36_AM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_03_2026__12_36_AM__Changes_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/setter&amp;getters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,6 +75,14 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="JavaSmash" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -95,6 +102,7 @@
       <workItem from="1771544893462" duration="3899000" />
       <workItem from="1771673483590" duration="2782000" />
       <workItem from="1772285175486" duration="6882000" />
+      <workItem from="1781273416162" duration="590000" />
     </task>
     <task id="LOCAL-00001" summary="Remove XML declaration from misc.xml configuration">
       <option name="closed" value="true" />
@@ -280,7 +288,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773530039894</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Add `TweetCounter.java` class with `main` method example to count characters in a tweet">
+      <option name="closed" value="true" />
+      <created>1781273487626</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1781273487626</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
