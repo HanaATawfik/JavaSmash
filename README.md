@@ -534,3 +534,8 @@ System.out.println(letters.indexOf("EFG"));
 System.out.println(letters.indexOf("z"));
 //-1
 ```
+```java
+String str = "qwer";
+System.out.println(str.charAt(2)); //e
+System.out.println(str.charAt(4)); //java.lang.StringIndexOutOfBoundsException: String index out of range: 4
+```
