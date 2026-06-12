@@ -558,3 +558,5 @@ String lower = input.toLowerCase();
 // stores "cricket!"
 ```
 ## Access, Encapsulation, and Static Methods
+What are Access and Scope?
+-
