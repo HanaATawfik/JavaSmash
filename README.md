@@ -720,5 +720,14 @@ public class Computer{
   }
 }
 ```
-ــ
-ــ
+```java
+public void pairWithOtherComputer(Computer other){
+  // Code for method that uses the parameter other
+}
+
+public void setUpConnection(){
+  // We use "this" to call the method and also pass "this" to the method so it can be used in that method
+  this.pairWithOtherComputer(this);
+}
+```
+You’re using the current object to call the method and are passing that object as that method’s parameter.
