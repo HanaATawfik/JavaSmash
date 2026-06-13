@@ -558,5 +558,167 @@ String lower = input.toLowerCase();
 // stores "cricket!"
 ```
 ## Access, Encapsulation, and Static Methods
-What are Access and Scope?
--
+-What are Access and Scope?
+the concepts of access and scope both center around what parts of your programs can interact with specific variables or methods from other parts of your program.
+
+-Access -> public keyword
+```java
+public class Dog{
+  public String name;
+  public int age;
+
+  public Dog(String input_name, int input_age){
+    name = input_name;
+    age = input_age;
+  }
+    
+  public void speak() {
+    System.out.println("Arf Arf! My name is " + name + " and I am a good dog!");
+  }
+}
+```
+In Java, the keywords public and private define the access of classes, instance variables, constructors, and methods.
+private restricts access to only the class that declared the structure, while public allows for access from any class.
+
+-Access -> private keyword
+```java
+public class DogSchool{
+
+  public void makeADog(){
+    Dog cujo = new Dog("Cujo", 7);
+    System.out.println(cujo.age);
+    cujo.speak();
+  }
+}
+```
+makeADog is trying to directly access Dog‘s .age variable. It’s also trying to use the .speak() method. If those are marked as private in the Dog class, the DogSchool class won’t be able to do that. Other methods within the Dog class would be able to use .age or .speak() (for example, we could use cujo.age within the Dog class), but other classes won’t have access.
+
+-Accessor and Mutator Methods
+To give other classes access to a private instance variable, we would write an accessor method (sometimes also known as a “getter” method).
+```java
+public class Dog{
+  private String name;
+    
+  //Other methods and constructors
+
+  public String getName() {
+    return name;
+  }
+}
+```
+Even though the instance variable name is private, other classes could call the public method getName() which returns the value of that instance variable. Accessor will always be public, and will have a return type that matches the type of the instance variable they’re accessing.
+
+Similarly, private instance variables often have mutator methods (sometimes known as “setters”). These methods allow other classes to reset the value stored in private instance variables.
+```java
+public class Dog{
+  private String name;
+    
+  //Other methods and constructors
+
+  public void setName(String newName) {
+    name = newName;
+  }
+
+  public static void main(String[] args){
+    Dog myDog = new Dog("Cujo");
+    myDog.setName("Lassie");
+  }
+}
+```
+-Scope: Local Variables
+The scope of a variable is determined by where the variable is declared. For example, because instance variables are declared inside a class but outside any methods or constructors, all methods and constructors are within the scope of that variable.
+```java
+class Dog{
+  public String name;
+  public int age;
+  public int weight;
+
+  public Dog(){
+    name = "Winston";
+    age = 8;
+    weight = 30;
+  }
+
+  public void speak(){
+    System.out.println("My name is " + name);
+  }
+}
+```
+ If you try to use a parameter outside the function it’s defined in, you’ll get an error. These variables are often called local variables. Note that we don’t use public or private when declaring local variables.
+
+This idea of scope extends to conditionals and loops as well. If you declare a variable inside the body of a conditional or in a loop, that variable can only be used inside that structure. 
+```java
+for(int i = 0; i < 10; i++){
+  // You can use i here
+}
+// i is out of scope here
+```
+-Scope: The this Keyword
+```java
+public class Dog{
+  public String name; //instance variable
+
+  public Dog(String inputName){  //constructor
+    name = inputName;
+  }
+
+  public void speakNewName(String name){ //local variable
+    System.out.println("Hello, my new name is" + name);
+  }
+
+  public static void main(String[] args){
+    Dog myDog = new Dog("Winston"); //value for the instance variable name
+    myDog.speakNewName("Darla"); // Prints "Darla" - "Winston" ignored  //value for the local variable name
+
+  }
+}
+```
+By default, Java refers to the local variable name. So in this case, the value passed to the parameter will be printed and not the instance variable.
+If we wanted to access the instance variable and not the local variable, we could use the this keyword.
+```java
+public class Dog{
+  public String name;
+
+  public Dog(String inputName){
+    name = inputName;
+  }
+
+  public void speakNewName(String name){
+    System.out.println("Hello, my new name is" + this.name);
+  }
+    
+  public static void main(String[] args){
+    Dog a = new Dog("Fido");
+    Dog b = new Dog("Odie");
+
+    a.speakNewName("Winston");
+    // "Fido", the instance variable of Dog a is printed. "Winston" is ignored
+
+    b.speakNewName("Darla");
+    // "Odie", the instance variable of Dog b is printed. "Darla" is ignored.
+  }
+}
+
+```
+-Using this With Methods
+```java
+public class Computer{
+  public int brightness;
+  public int volume;
+  
+  public void setBrightness(int inputBrightness){
+    this.brightness = inputBrightness;
+  }
+
+  public void setVolume(int inputVolume){
+    this.volume = inputVolume;
+  }
+
+  public void resetSettings(){
+    this.setBrightness(0);
+    this.setVolume(0);
+  }
+}
+```
+ــ
+ــ
