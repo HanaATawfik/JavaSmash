@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ea60211-e85e-46c1-af90-f7e43406c7dc" name="Changes" comment="Add `TweetCounter.java` class with `main` method example to count characters in a tweet">
-      <change afterPath="$PROJECT_DIR$/setter&amp;getters.java" afterDir="false" />
+    <list default="true" id="0ea60211-e85e-46c1-af90-f7e43406c7dc" name="Changes" comment="Add `setter&amp;getters.java` with `Bank` and `CheckingAccount` classes for account management">
+      <change afterPath="$PROJECT_DIR$/thiskeyword.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +102,7 @@
       <workItem from="1771544893462" duration="3899000" />
       <workItem from="1771673483590" duration="2782000" />
       <workItem from="1772285175486" duration="6882000" />
-      <workItem from="1781273416162" duration="590000" />
+      <workItem from="1781273416162" duration="1825000" />
     </task>
     <task id="LOCAL-00001" summary="Remove XML declaration from misc.xml configuration">
       <option name="closed" value="true" />
@@ -296,7 +296,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781273487626</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Add `setter&amp;getters.java` with `Bank` and `CheckingAccount` classes for account management">
+      <option name="closed" value="true" />
+      <created>1781300205330</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1781300205331</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,7 +331,8 @@
     <MESSAGE value="Update `.idea/workspace.xml` to adjust task summaries and durations" />
     <MESSAGE value="Update `.idea/workspace.xml` to refine task summaries and durations" />
     <MESSAGE value="Add `TweetCounter.java` class with `main` method example to count characters in a tweet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add `TweetCounter.java` class with `main` method example to count characters in a tweet" />
+    <MESSAGE value="Add `setter&amp;getters.java` with `Bank` and `CheckingAccount` classes for account management" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add `setter&amp;getters.java` with `Bank` and `CheckingAccount` classes for account management" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
