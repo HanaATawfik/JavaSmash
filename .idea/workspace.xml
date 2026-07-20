@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ea60211-e85e-46c1-af90-f7e43406c7dc" name="Changes" comment="Add `this&amp;mutators.java` with `Person` class and example usage in `Main` class">
-      <change afterPath="$PROJECT_DIR$/staticvars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0ea60211-e85e-46c1-af90-f7e43406c7dc" name="Changes" comment="Add `staticvars.java` with `ATM` class demonstrating static variables and methods" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +99,7 @@
       <workItem from="1771544893462" duration="3899000" />
       <workItem from="1771673483590" duration="2782000" />
       <workItem from="1772285175486" duration="6882000" />
-      <workItem from="1781273416162" duration="2609000" />
+      <workItem from="1781273416162" duration="3985000" />
     </task>
     <task id="LOCAL-00001" summary="Remove XML declaration from misc.xml configuration">
       <option name="closed" value="true" />
@@ -320,7 +317,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781377544523</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Add `staticvars.java` with `ATM` class demonstrating static variables and methods">
+      <option name="closed" value="true" />
+      <created>1781382892919</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1781382892919</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,7 +355,8 @@
     <MESSAGE value="Add `setter&amp;getters.java` with `Bank` and `CheckingAccount` classes for account management" />
     <MESSAGE value="Add `thiskeyword.java` with `SavingsAccount` class and example usage in `Main` class" />
     <MESSAGE value="Add `this&amp;mutators.java` with `Person` class and example usage in `Main` class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add `this&amp;mutators.java` with `Person` class and example usage in `Main` class" />
+    <MESSAGE value="Add `staticvars.java` with `ATM` class demonstrating static variables and methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add `staticvars.java` with `ATM` class demonstrating static variables and methods" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
